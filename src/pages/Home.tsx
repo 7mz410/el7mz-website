@@ -91,17 +91,17 @@ export default function Home() {
           
           <div className="projects-grid-smv mt-5">
             <div className="project-card-smv">
-              <div className="img-container gallery-item">
-                <img src="/images/VNV_Gent_01.jpg" alt="VNV Gent Project" />
+              <div className="img-container gallery-item square-ratio">
+                <img src="/images/VNV_Gent_01.jpg" alt="VierNulVier Gent Intervention" />
               </div>
               <div className="project-info-smv">
-                <h3>VNV Gent Intervention</h3>
-                <p>Digital Calligraffiti at the heart of Gent.</p>
+                <h3>VierNulVier Gent Intervention</h3>
+                <p>A massive 500 square meter artwork.</p>
               </div>
             </div>
             <div className="project-card-smv">
-              <div className="img-container gallery-item">
-                <img src="/images/VNV_Gent_02.jpg" alt="VNV Gent Project" />
+              <div className="img-container gallery-item square-ratio">
+                <img src="/images/VNV_Gent_02.jpg" alt="Social Design Case Study" />
               </div>
               <div className="project-info-smv">
                 <h3>Social Design Case Study</h3>

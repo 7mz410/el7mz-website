@@ -8,7 +8,7 @@ import Home from './pages/Home';
 import Comics from './pages/Comics';
 import Research from './pages/Research';
 import Phd from './pages/Phd';
-import PalestinePavillion from './pages/PalestinePavillion';
+import MaThesis from './pages/MaThesis';
 import CanvasForSolidarity from './pages/CanvasForSolidarity';
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
               <Route path="/comics" element={<Comics />} />
               <Route path="/research" element={<Research />} />
               <Route path="/phd" element={<Phd />} />
-              <Route path="/palestine-pavillion-at-cannes-25" element={<PalestinePavillion />} />
+              <Route path="/ma-thesis" element={<MaThesis />} />
               <Route path="/Project404" element={<CanvasForSolidarity />} />
             </Routes>
           </AnimatePresence>

@@ -27,7 +27,7 @@ export default function Navbar() {
           <Link to="/comics" className={location.pathname.includes('/comics') ? 'active' : ''}>Comics</Link>
           <Link to="/research" className={location.pathname.includes('/research') ? 'active' : ''}>Research</Link>
           <Link to="/phd" className={location.pathname.includes('/phd') ? 'active' : ''}>PhD</Link>
-          <Link to="/palestine-pavillion-at-cannes-25" className={location.pathname.includes('/palestine-pavillion') ? 'active' : ''}>Cannes</Link>
+          <Link to="/ma-thesis" className={location.pathname.includes('/ma-thesis') ? 'active' : ''}>MA Thesis</Link>
           <Link to="/Project404" className={location.pathname.includes('/Project404') ? 'active' : ''}>Project 404</Link>
           <a href="https://digitalcalligraffiti.org/" target="_blank" rel="noreferrer" className="external-nav-link">Digital Calligraffiti</a>
         </nav>
@@ -51,7 +51,7 @@ export default function Navbar() {
               <Link to="/comics" onClick={() => setIsOpen(false)}>Comics</Link>
               <Link to="/research" onClick={() => setIsOpen(false)}>Research</Link>
               <Link to="/phd" onClick={() => setIsOpen(false)}>PhD</Link>
-              <Link to="/palestine-pavillion-at-cannes-25" onClick={() => setIsOpen(false)}>Cannes</Link>
+              <Link to="/ma-thesis" onClick={() => setIsOpen(false)}>MA Thesis</Link>
               <Link to="/Project404" onClick={() => setIsOpen(false)}>Project 404</Link>
               <a href="https://digitalcalligraffiti.org/" target="_blank" rel="noreferrer" className="external-nav-link-mobile" onClick={() => setIsOpen(false)}>Digital Calligraffiti</a>
             </nav>
