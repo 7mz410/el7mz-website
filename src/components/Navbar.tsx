@@ -24,7 +24,7 @@ export default function Navbar() {
 
         <nav className="desktop-nav-smv">
           <Link to="/home" className={location.pathname.includes('/home') ? 'active' : ''}>Home</Link>
-          <Link to="/sol" className={location.pathname.includes('/sol') ? 'active' : ''}>SOL</Link>
+          <Link to="/comics" className={location.pathname.includes('/comics') ? 'active' : ''}>Comics</Link>
           <Link to="/research" className={location.pathname.includes('/research') ? 'active' : ''}>Research</Link>
           <Link to="/phd" className={location.pathname.includes('/phd') ? 'active' : ''}>PhD</Link>
           <Link to="/palestine-pavillion-at-cannes-25" className={location.pathname.includes('/palestine-pavillion') ? 'active' : ''}>Cannes</Link>
@@ -47,7 +47,7 @@ export default function Navbar() {
           >
             <nav className="mobile-links-smv">
               <Link to="/home" onClick={() => setIsOpen(false)}>Home</Link>
-              <Link to="/sol" onClick={() => setIsOpen(false)}>SOL</Link>
+              <Link to="/comics" onClick={() => setIsOpen(false)}>Comics</Link>
               <Link to="/research" onClick={() => setIsOpen(false)}>Research</Link>
               <Link to="/phd" onClick={() => setIsOpen(false)}>PhD</Link>
               <Link to="/palestine-pavillion-at-cannes-25" onClick={() => setIsOpen(false)}>Cannes</Link>

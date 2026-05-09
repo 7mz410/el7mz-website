@@ -156,6 +156,23 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Merch Store Section */}
+      <section className="store-smv section-padding bg-darker">
+        <div className="container">
+          <h2 className="section-header">Web Store</h2>
+          <p className="section-sub">Official El 7mz Merch & Apparel</p>
+          
+          <div className="store-widget-container mt-5">
+            <iframe 
+              style={{ borderRadius: '24px', border: 'none' }} 
+              src="https://embed.creator-spring.com/widget?slug=7mz&per=20&currency=&page=1&layout=carousel-small&theme=dark" 
+              title="7mz Merch store powered by Spring" 
+              width="100%" 
+              height="420"
+            ></iframe>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
