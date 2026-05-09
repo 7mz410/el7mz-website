@@ -3,17 +3,15 @@ import { motion } from 'framer-motion';
 export default function Phd() {
   return (
     <motion.div 
-      className="section container"
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: -20 }}
-      transition={{ duration: 0.5 }}
-      style={{ minHeight: '60vh', paddingTop: '120px' }}
+      className="section-padding container"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.8 }}
     >
-      <h1 className="section-title">PhD Journey</h1>
-      <div className="glass-panel" style={{ padding: '3rem', marginTop: '2rem' }}>
-        <p className="text-secondary" style={{ fontSize: '1.2rem' }}>
-          Documentation of the PhD research in Digital Calligraffiti and its impact on public space.
+      <h1 className="section-header">PhD Journey</h1>
+      <div className="mt-5">
+        <p className="bio-p">
+          Exploration of Digital Calligraffiti as a tool for creative intervention in public spaces.
         </p>
       </div>
     </motion.div>
