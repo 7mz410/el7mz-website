@@ -1,8 +1,8 @@
 :root {
-  --bg-black: #333f42;
-  --bg-deep: #2a3436;
+  --bg-black: #000000;
+  --bg-deep: #080808;
   --text-white: #ffffff;
-  --text-dim: #cccccc;
+  --text-dim: #999999;
   --accent-gold: #d8393b;
   --font-boldonse: 'Boldonse', sans-serif;
   --font-bold: 'Bebas Neue', sans-serif;

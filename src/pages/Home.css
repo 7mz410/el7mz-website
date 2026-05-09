@@ -59,10 +59,11 @@
 .main-headline {
   font-family: var(--font-boldonse);
   font-size: clamp(4rem, 15vw, 12rem);
-  line-height: 0.8;
+  line-height: 1.0;
   color: white;
   text-transform: uppercase;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.02em;
+  -webkit-text-stroke: 1px rgba(0,0,0,0.5);
 }
 
 .text-accent {
