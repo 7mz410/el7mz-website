@@ -69,7 +69,7 @@ export default function Home() {
               I am a Palestinian-Jordanian multimedia artist born in Lebanon, with a creative practice rooted in resilience and cultural hybridity. My work spans over two decades at the intersection of calligraphy, graffiti, performance, and technology.
             </p>
             <p className="bio-p">
-              A pioneer in <strong>Digital Calligraffiti</strong>, I co-invented the Infl3ctor, a live performance tool for real-time digital calligraphic projection. My thesis at KASK explored how Digital Calligraffiti can creatively intervene in Western historical monuments.
+              A pioneer in <a href="https://digitalcalligraffiti.org/" target="_blank" rel="noreferrer" className="inline-link"><strong>Digital Calligraffiti</strong></a>, I co-invented the Infl3ctor, a live performance tool for real-time digital calligraphic projection. My thesis at KASK explored how <a href="https://digitalcalligraffiti.org/" target="_blank" rel="noreferrer" className="inline-link">Digital Calligraffiti</a> can creatively intervene in Western historical monuments.
             </p>
             <div className="action-btns">
               <a href="/docs/CV_Hamza_Abuayyash_2026.pdf" target="_blank" className="smv-btn primary">
@@ -165,7 +165,7 @@ export default function Home() {
           <div className="store-widget-container mt-5">
             <iframe 
               style={{ borderRadius: '24px', border: 'none' }} 
-              src="https://embed.creator-spring.com/widget?slug=7mz&per=20&currency=&page=1&layout=carousel-small&theme=dark" 
+              src="https://embed.creator-spring.com/widget?slug=7mz&per=20&currency=&page=1&layout=carousel-wide&theme=dark" 
               title="7mz Merch store powered by Spring" 
               width="100%" 
               height="420"
