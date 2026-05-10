@@ -121,7 +121,11 @@ export default function Home() {
       {/* Palestine Film Institute - Cannes Posters */}
       <section className="projects-smv section-padding">
         <div className="container">
-          <h2 className="section-header">Palestine Film Institute</h2>
+          <h2 className="section-header">
+            <a href="https://www.palestinefilminstitute.org/" target="_blank" rel="noreferrer" className="inline-link">
+              Palestine Film Institute
+            </a>
+          </h2>
           <p className="section-sub">Official Poster Designs for Cannes Film Festival 2025 & 2026</p>
           
           <div className="projects-grid-smv mt-5">
@@ -137,11 +141,19 @@ export default function Home() {
               </div>
               <div className="poster-label">Official Poster 2026</div>
             </div>
-            <div className="poster-card wide">
-              <div className="img-container poster-item">
-                <img src="/images/PFP_S6_Poster.png" alt="PFP Poster" />
+            
+            <div className="pfi-feature-card wide">
+              <div className="pfi-feature-image">
+                <img src="/images/PFP_S6_Poster.webp" alt="PFP Poster" />
               </div>
-              <div className="poster-label">PFI Special Feature</div>
+              <div className="pfi-feature-content">
+                <h3 className="pfi-feature-title">PFI Special Feature</h3>
+                <p className="pfi-feature-sub">
+                  <a href="https://www.palestinefilminstitute.org/en/pfp" target="_blank" rel="noreferrer" className="inline-link">
+                    Palestine Film Platform, Season 6.
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
