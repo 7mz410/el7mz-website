@@ -86,7 +86,11 @@ export default function Home() {
       {/* Featured Projects - Rooted in Resilience */}
       <section className="projects-smv section-padding bg-darker">
         <div className="container">
-          <h2 className="section-header">Rooted in Resilience</h2>
+          <h2 className="section-header">
+            <a href="https://www.viernulvier.gent/en/viernulvier-collection-rooted-in-resilience-jgvq" target="_blank" rel="noreferrer" className="inline-link">
+              Rooted in Resilience
+            </a>
+          </h2>
           <p className="section-sub">Collaboration with Vier Nul Vier & Gent Cultural Heritage</p>
           
           <div className="projects-grid-smv mt-5">
