@@ -19,7 +19,7 @@ export default function MaThesis() {
           viewport={{ once: true }}
         >
           <div className="img-container portrait-frame">
-            <img src="/images/Artwork_001.png" alt="MA Thesis Cover" />
+            <img src="/images/thesis-cover.png" alt="MA Thesis Cover" />
           </div>
         </motion.div>
 
