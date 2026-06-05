@@ -122,6 +122,47 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Gaza Fundraiser Stream - Live Visuals */}
+      <section className="video-feature-smv section-padding">
+        <div className="container">
+          <h2 className="section-header">Live Visuals for Gaza Fundraiser Stream</h2>
+          <p className="section-sub">
+            <a href="https://www.youtube.com/@radioflouka" target="_blank" rel="noreferrer" className="inline-link">Radio Flouka</a> x{' '}
+            <a href="https://www.instagram.com/yalla.worldwide/" target="_blank" rel="noreferrer" className="inline-link">Yalla Worldwide</a>
+          </p>
+
+          <div className="video-embed-container mt-5">
+            <iframe
+              src="https://www.youtube.com/embed/RhQmRBFoLss"
+              title="Live Visuals for Gaza Fundraiser Stream"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="video-embed-iframe"
+            ></iframe>
+          </div>
+
+          <motion.div
+            className="video-description-block"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+          >
+            <p className="bio-p">
+              A live visual performance for a fundraising livestream hosted by{' '}
+              <a href="https://www.instagram.com/yalla.worldwide/" target="_blank" rel="noreferrer" className="inline-link">Yalla Worldwide</a> on{' '}
+              <a href="https://www.youtube.com/@radioflouka" target="_blank" rel="noreferrer" className="inline-link">Radio Flouka</a>, dedicated to supporting the children of Gaza through the{' '}
+              <a href="https://www.instagram.com/thepcrf/" target="_blank" rel="noreferrer" className="inline-link">PCRF</a>.
+            </p>
+            <p className="bio-p">
+              Reacting in real-time to an intense, distorted, and politically charged live set by{' '}
+              <a href="https://www.instagram.com/useknifeofficial/" target="_blank" rel="noreferrer" className="inline-link">Use Knife</a>—which opened with a powerful reading of Angela Davis by x26music—the visuals translated the raw anger, heavy electronic tracks, and revolutionary quotes into a striking live environment.
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Palestine Film Institute - Cannes Posters */}
       <section className="projects-smv section-padding">
         <div className="container">
