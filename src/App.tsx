@@ -9,7 +9,7 @@ import Comics from './pages/Comics';
 import Research from './pages/Research';
 import Phd from './pages/Phd';
 import MaThesis from './pages/MaThesis';
-import CanvasForSolidarity from './pages/CanvasForSolidarity';
+import RootedInResilience from './pages/RootedInResilience';
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
               <Route path="/research" element={<Research />} />
               <Route path="/phd" element={<Phd />} />
               <Route path="/ma-thesis" element={<MaThesis />} />
-              <Route path="/Project404" element={<CanvasForSolidarity />} />
+              <Route path="/rooted-in-resilience" element={<RootedInResilience />} />
             </Routes>
           </AnimatePresence>
         </main>

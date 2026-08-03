@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { ArrowDown, Download, ExternalLink } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 export default function Home() {
@@ -87,11 +88,11 @@ export default function Home() {
       <section className="projects-smv section-padding bg-darker">
         <div className="container">
           <h2 className="section-header">
-            <a href="https://www.viernulvier.gent/en/viernulvier-collection-rooted-in-resilience-jgvq" target="_blank" rel="noreferrer" className="inline-link">
+            <Link to="/rooted-in-resilience" className="inline-link">
               Rooted in Resilience
-            </a>
+            </Link>
           </h2>
-          <p className="section-sub">Collaboration with Vier Nul Vier & Gent Cultural Heritage</p>
+          <p className="section-sub">Collaboration with <a href="https://www.viernulvier.gent/en/viernulvier-collection-rooted-in-resilience-jgvq" target="_blank" rel="noreferrer" className="inline-link">VierNulVier</a> & Gent Cultural Heritage</p>
           
           <div className="projects-grid-smv mt-5">
             <div className="project-card-smv">
@@ -99,7 +100,7 @@ export default function Home() {
                 <img src="/images/VNV_Gent_01.jpg" alt="VierNulVier Gent Intervention" />
               </div>
               <div className="project-info-smv">
-                <h3>VierNulVier Gent Intervention</h3>
+                <h3><a href="https://www.viernulvier.gent/en/viernulvier-collection-rooted-in-resilience-jgvq" target="_blank" rel="noreferrer" className="inline-link" style={{ color: 'inherit', textDecoration: 'none' }}>VierNulVier</a> Gent Intervention</h3>
                 <p>A massive 500 square meter artwork.</p>
               </div>
             </div>
