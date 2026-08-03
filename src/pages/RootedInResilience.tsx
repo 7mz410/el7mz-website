@@ -10,63 +10,55 @@ export default function RootedInResilience() {
     >
       <h1 className="section-header">Rooted in Resilience</h1>
       
-      <div className="mt-5 text-content-wrapper">
-        <p className="bio-p">
-          "I’m honored to share that I’ve been invited to create a new artwork at Viernulvier in Ghent, a city I’ve proudly called my home in Europe. This opportunity is not just a milestone in my artistic journey—it’s a deeply personal chance to express solidarity with the Palestinian people and to use art as a platform for storytelling, reflection, and hope.
-        </p>
-        <p className="bio-p">
-          The project, titled Rooted in Resilience, transforms the facade of Viernulvier’s building into a massive 500 m² canvas, covering the scaffolding during the venue’s renovation. When Róise Goan, the artistic coordinator, first reached out, I was immediately inspired by the possibility of using this prominent space to convey a message of resilience, identity, and the enduring strength of communities living under occupation. The installation, unveiled in February 2025, turns the building into a visual platform for raising awareness and sparking conversations."
-        </p>
-        
-        <h3 className="mt-4 mb-3" style={{ color: 'var(--accent-color)', fontSize: '1.5rem', fontWeight: 700 }}>The Vision Behind the Work</h3>
-        <p className="bio-p">
-          Rooted in Resilience is more than just a large-scale artwork—it’s a statement, a reminder, and a moment of defiance. It’s about survival. It’s about holding onto identity, history, and culture, even when everything else is being taken away. It’s about roots—both literal and metaphorical—the kind that dig deep into the land, refusing to be removed.
-        </p>
-        <p className="bio-p">
-          The title reflects the profound interplay between endurance, identity, and the cyclical forces of occupation and resistance. Drawing inspiration from Ghassan Zaqtan’s evocative poem By Force of Habit, the piece explores themes of persistence, memory, and life amidst entrenched systems of oppression. Zaqtan’s words unravel the habits of domination that pervade daily existence under occupation, and this poetic critique serves as the guiding framework for the artwork.
-        </p>
-        <p className="bio-p">
-          The central imagery weaves together calligraphic threads and blooming poppies. The poppies, vibrant yet fragile, symbolize both memory and sacrifice, resonating with the lives uprooted and histories scarred by displacement. Despite their fragility, the persistence of poppies blooming against all odds evokes hope—a defiant affirmation of life in the face of oppression.
-        </p>
-        <p className="bio-p">
-          The intricate calligraphy embedded in the design mirrors the complexity of resilience, representing the cultural and historical ties that anchor identity even in the harshest conditions. These calligraphic elements, rooted in Palestinian heritage, form a network of interconnected stories, affirming that the roots of identity and freedom remain unbroken, pushing through the cracks, vibrant and alive.
-        </p>
+      <div className="rooted-content-layout mt-5">
+        <div className="text-content-wrapper">
+          <p className="bio-p" style={{ fontStyle: 'italic', color: 'var(--text-white)', fontSize: '1.25rem' }}>
+            There are moments when art stops being an object and becomes a responsibility.
+          </p>
+          <p className="bio-p">
+            When Viernulvier invited me to create a work for the façade of its building in Ghent, I immediately understood that this would be more than a commission. A 500-square-metre surface, suspended above one of the city's busiest streets, offered the rare opportunity to transform architecture into a public conversation.
+          </p>
+          <p className="bio-p">
+            I wanted the work to speak about Palestine, not through spectacle, but through permanence.
+          </p>
+          <p className="bio-p">
+            <strong>Rooted in Resilience</strong> explores the relationship between land, memory, and identity. It reflects on what remains when people are asked to leave, when landscapes change, and when history itself becomes contested. Rather than illustrating conflict, the work focuses on endurance: the quiet, persistent force that allows culture, language, and memory to survive across generations.
+          </p>
+          <p className="bio-p">
+            The visual language combines flowing Arabic calligraphy with fields of blooming poppies. The calligraphy behaves almost like a root system, expanding across the façade and connecting fragments into a single living structure. It carries stories that cannot easily be erased. The poppies introduce another layer, beautiful yet delicate, growing where survival seems unlikely. Together, these elements create a dialogue between fragility and resilience, absence and presence.
+          </p>
+          <p className="bio-p">
+            The project draws inspiration from Ghassan Zaqtan's poem <em>By Force of Habit</em>, whose reflections on everyday life under occupation shaped the emotional foundation of the piece. Rather than illustrating the poem directly, the artwork extends its ideas into space, allowing architecture, typography, and colour to become part of the same narrative.
+          </p>
+          <p className="bio-p">
+            Designing a work at this scale required thinking beyond the image itself. Every line had to respond to the building, every composition had to remain legible from both a distance and close range, and the architecture became an active part of the artwork rather than simply its support. The protruding staircase, scaffolding, and geometry of the façade all became elements within the composition, turning the installation into a three-dimensional experience.
+          </p>
+          <p className="bio-p">
+            For me, public art has the ability to interrupt routine. It can slow someone down for a few seconds, invite reflection, or simply leave behind a question that continues long after they have walked away. That possibility mattered more than delivering answers.
+          </p>
+          <p className="bio-p">
+            At its core, <strong>Rooted in Resilience</strong> is about the persistence of belonging. It is a meditation on the invisible roots that connect people to place, language, history, and one another, roots that continue to grow, even under immense pressure.
+          </p>
+          <p className="bio-p">
+            Installed in the heart of Ghent, the work stands as both an artwork and an invitation: to look more closely, to reflect more deeply, and to recognise resilience not only as resistance, but as an enduring act of creation.
+          </p>
+        </div>
 
-        <h3 className="mt-4 mb-3" style={{ color: 'var(--accent-color)', fontSize: '1.5rem', fontWeight: 700 }}>The Creation Process</h3>
-        <p className="bio-p">
-          Creating something this big wasn’t easy, but it felt urgent. It started with research, sketches, and a lot of thinking—making sure the idea stayed true to what I wanted to say. The final artwork was printed on durable fabric, specifically designed to withstand time and weather, and installed on the scaffolding covering Viernulvier’s facade.
-        </p>
-        <p className="bio-p">
-          The installation process was a collaborative effort with Viernulvier and a dedicated production team. Together, we turned an idea into something real—something that now stands in the middle of the city, impossible to ignore. The unique architecture of Viernulvier’s building, particularly its jutting staircase, provided an exciting opportunity to create a three-dimensional design that enhances the visual impact. By integrating these architectural elements into the artwork, the installation transcends traditional boundaries, inviting viewers to experience the piece as a dynamic conversation between space, poetry, and design.
-        </p>
+        <div className="images-sidebar">
+          <img src="/images/VNV_Gent_01.jpg" alt="VierNulVier Gent 01" />
+          <img src="/images/VNV_Gent_02.jpg" alt="VierNulVier Gent 02" />
+          <img src="/images/VNV_Gent_03.webp" alt="VierNulVier Gent 03" />
+          <img src="/images/VNV_Gent_04.webp" alt="VierNulVier Gent 04" />
+        </div>
+      </div>
 
-        <h3 className="mt-4 mb-3" style={{ color: 'var(--accent-color)', fontSize: '1.5rem', fontWeight: 700 }}>Why This Matters</h3>
-        <p className="bio-p">
-          This project isn’t just about creating a visually compelling piece—it’s about using art as a tool for solidarity and connection. Rooted in Resilience seeks to resonate emotionally with viewers, encouraging reflection on the strength of those who resist displacement and the enduring spirit of communities striving for justice and dignity.
-        </p>
-        <p className="bio-p">
-          By anchoring the work in Zaqtan’s By Force of Habit, the artwork serves as both a critique of habitual violence and a testament to the resilience that defies it. I hope it will invite conversations and connections here in Ghent, creating a shared space where people can reflect on the realities of the Palestinian experience and the universal struggle for identity and freedom.
-        </p>
-
-        <h3 className="mt-4 mb-3" style={{ color: 'var(--accent-color)', fontSize: '1.5rem', fontWeight: 700 }}>An Invitation to Engage</h3>
-        <p className="bio-p">
-          This installation is more than an artwork—it’s a visual narrative of solidarity, resistance, and renewal. It’s my way of honoring the resilience of the Palestinian people and sharing their story with the world.
-        </p>
-        <p className="bio-p">
-          The artwork is now installed and visible to the public, and I invite everyone to engage with it—to see in it the persistence of hope, the strength of memory, and the enduring power of art to inspire change.
-        </p>
-
-        <h3 className="mt-4 mb-3" style={{ color: 'var(--accent-color)', fontSize: '1.5rem', fontWeight: 700 }}>What Viernulvier Says</h3>
-        <p className="bio-p" style={{ fontStyle: 'italic', borderLeft: '4px solid var(--accent-color)', paddingLeft: '1rem' }}>
-          As Viernulvier shared in their announcement: "The artwork Rooted in Resilience transforms the facade of our building into a powerful visual statement. Created by Hamza AbuAyyash, this 500 m² installation uses durable fabric to cover the scaffolding, turning a construction site into a living, breathing piece of art. The piece invites viewers to reflect on themes of resilience, identity, and solidarity, making it a meaningful addition to Ghent’s urban landscape."
-        </p>
-
+      <div className="text-content-wrapper mt-5">
         {/* Poems Grid */}
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem', marginTop: '3rem', marginBottom: '3rem' }}>
           
           {/* Arabic Poem */}
           <div dir="rtl" style={{ textAlign: 'right', fontFamily: 'system-ui, -apple-system, sans-serif' }}>
-            <h4 style={{ color: 'var(--accent-color)', fontSize: '1.2rem', marginBottom: '1rem' }}>بحكم العادة<br/>غسان زقطان</h4>
+            <h4 style={{ color: 'var(--accent-gold)', fontSize: '1.2rem', marginBottom: '1rem' }}>بحكم العادة<br/>غسان زقطان</h4>
             <div style={{ lineHeight: '1.8' }}>
               الجندي الذي نسيته الدورية في الحديقة<br/>
               الدورية التي نسيها حرس الحدود على الحاجز<br/>
@@ -87,7 +79,7 @@ export default function RootedInResilience() {
 
           {/* Dutch Poem */}
           <div>
-            <h4 style={{ color: 'var(--accent-color)', fontSize: '1.2rem', marginBottom: '1rem' }}>Uit gewoonte<br/>Ghassan Zaqtan</h4>
+            <h4 style={{ color: 'var(--accent-gold)', fontSize: '1.2rem', marginBottom: '1rem' }}>Uit gewoonte<br/>Ghassan Zaqtan</h4>
             <div style={{ lineHeight: '1.8' }}>
               De soldaat die vergeten werd door de patrouille in het park<br/>
               De patrouille die de grenswachten bij de controlepost vergaten<br/>
@@ -108,7 +100,7 @@ export default function RootedInResilience() {
 
           {/* English Poem */}
           <div>
-            <h4 style={{ color: 'var(--accent-color)', fontSize: '1.2rem', marginBottom: '1rem' }}>By force of habit<br/>Ghassan Zaqtan</h4>
+            <h4 style={{ color: 'var(--accent-gold)', fontSize: '1.2rem', marginBottom: '1rem' }}>By force of habit<br/>Ghassan Zaqtan</h4>
             <div style={{ lineHeight: '1.8' }}>
               The soldier that the squad left in the garden,<br/>
               the squad that the border guards left at the checkpoint,<br/>
@@ -127,7 +119,7 @@ export default function RootedInResilience() {
             <div style={{ marginTop: '1.5rem', fontSize: '0.9rem', color: '#aaa' }}>
               Translated by Robin Moger<br/>
               This poem was part of the book that was published by Seagull<br/>
-              you can buy it at <a href="https://seagullbooks.org/products/strangers-in-light-coats" target="_blank" rel="noreferrer" className="inline-link" style={{ color: 'var(--accent-color)' }}>The Seagull Books Store</a>
+              you can buy it at <a href="https://seagullbooks.org/products/strangers-in-light-coats" target="_blank" rel="noreferrer" className="inline-link" style={{ color: 'var(--accent-gold)' }}>The Seagull Books Store</a>
             </div>
           </div>
         </div>

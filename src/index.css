@@ -124,3 +124,30 @@ a:hover {
   border-bottom: 1px solid var(--accent-gold);
   opacity: 0.8;
 }
+
+/* Rooted in Resilience Layout */
+.rooted-content-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 992px) {
+  .rooted-content-layout {
+    grid-template-columns: 1fr 380px;
+    gap: 3rem;
+  }
+}
+
+.images-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.images-sidebar img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  background-color: #111;
+}
